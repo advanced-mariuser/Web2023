@@ -1,8 +1,8 @@
 .top-block 
 {
-  background-image: url(../image/top_block.jpg);
-  width: 100%;
-  height: 500px;
+    background-image: url(../image/top_block.jpg);
+    width: 100%;
+    height: 500px;
 }
 
 .top-block__menu 
@@ -12,10 +12,10 @@
 
 .menu__logo 
 {
-  font-family: Lora;
-  font-size: 26px;
-  line-height: 1;
-  color: white;
+    font-family: Lora;
+    font-size: 26px;
+    line-height: 1;
+    color: white;
 }
 
 .menu__navigation 
@@ -24,82 +24,82 @@
 
 .navigation__link 
 {
-  text-decoration: none;
-  font-family: Oxygen;
-  font-size: 11px;
-  line-height: 1.82;
-  letter-spacing: 0.6px;
-  color: white;
+    text-decoration: none;
+    font-family: Oxygen;
+    font-size: 11px;
+    line-height: 1.82;
+    letter-spacing: 0.6px;
+    color: white;
 }
 
 .top-block__centertext
 {
-  color: white;
+    color: white;
 }
 
 .centertext__main
 {
-  font-family: Lora;
-  font-size: 50px;
-  line-height: 1;
+    font-family: Lora;
+    font-size: 50px;
+    line-height: 1;
 }
 
 .centertext__slogan
 {
-  font-family: Oxygen;
-  font-size: 17px;
-  line-height: 1.18;
-  color: rgba(255, 255, 255, 0.63);
+    font-family: Oxygen;
+    font-size: 17px;
+    line-height: 1.18;
+    color: rgba(255, 255, 255, 0.63);
 }
 
 .top-block__button
 {
-  background-color: #DD783F;
-  border-width: 0;
-  border-radius: 3px;
-  height: 44px;
-  width: 167px;
-  font-family: Oxygen; 
-  font-size: 13px;
-  line-height: 1.54;
-  color: white;
+    background-color: #DD783F;
+    border-width: 0;
+    border-radius: 3px;
+    height: 44px;
+    width: 167px;
+    font-family: Oxygen; 
+    font-size: 13px;
+    line-height: 1.54;
+    color: white;
 }
 
 .top-menu
 {
-  background-color: white;
+    background-color: white;
 }
 
 .top-menu__link
 {
-  text-decoration: none;
-  font-family: Lora;
-  font-size: 14px;
-  line-height: 1.43;
-  color: #768088;
+    text-decoration: none;
+    font-family: Lora;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #768088;
 }
 
 .main-content
 {
-  background-color: #F7F7F7;
+    background-color: #F7F7F7;
 }
 
 .main-content__centertext
 {
-  font-family: Oxygen;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 1.35;
-  letter-spacing: 2px;
-  color: #2E2E2E;
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.35;
+    letter-spacing: 2px;
+    color: #2E2E2E;
 }
 
 .main-content__leftpost
 {
-  background-image: url(../image/mountain.png);
-  background-size: 100%;
-  width: 460px;
-  height: 280px;
+    background-image: url(../image/mountain.png);
+    background-size: 100%;
+    width: 460px;
+    height: 280px;
 }
 
 .leftpost__healine
@@ -109,40 +109,40 @@
 
 .leftpost__headline_link
 {
-  text-decoration: none;
-  font-family: Lora;
-  font-size: 27px;
-  line-height: 1.11;
-  color: white;
+    text-decoration: none;
+    font-family: Lora;
+    font-size: 27px;
+    line-height: 1.11;
+    color: white;
 }
 
 .leftpost__text
 {
-  font-family: Oxygen;
-  font-size: 14px;
-  line-height: 1.79;
-  color: rgba(255, 255, 255, 0.7);
+    font-family: Oxygen;
+    font-size: 14px;
+    line-height: 1.79;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .leftpost__image
 {
-  border-radius: 60px;
+    border-radius: 60px;
 }
 
 .leftpost__info
 {
-  font-family: Oxygen;
-  font-size: 12px;
-  line-height: 2.92;
-  color: rgba(255, 255, 255, 0.7);
+    font-family: Oxygen;
+    font-size: 12px;
+    line-height: 2.92;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .main-content__rightpost
 {
-  background-image: url(../image/lights.png);
-  background-size: 100%;
-  width: 460px;
-  height: 280px;
+    background-image: url(../image/lights.png);
+    background-size: 100%;
+    width: 460px;
+    height: 280px;
 }
 
 .rightpost__healine
@@ -152,48 +152,48 @@
 
 .rightpost__headline_link
 {
-  text-decoration: none;
-  font-family: Lora;
-  font-style: normal;
-  font-size: 27px;
-  line-height: 1.11;
-  color: white;
+    text-decoration: none;
+    font-family: Lora;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 1.11;
+    color: white;
 }
 
 .rightpost__text
 {
-  font-family: Oxygen;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.79;
-  color: rgba(255, 255, 255, 0.7);
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.79;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .rightpost__image
 {
-  border-radius: 60px;
+    border-radius: 60px;
 }
 
 .rightpost__info
 {
-  font-family: Oxygen;
-  font-size: 12px;
-  line-height: 2.92;
-  color: rgba(255, 255, 255, 0.7);
+    font-family: Oxygen;
+    font-size: 12px;
+    line-height: 2.92;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .under-main-content
 {
-  background-color: #F7F7F7;
+    background-color: #F7F7F7;
 }
 
 .under-main-content__centertext
 {
-  font-family: Oxygen;
-  font-size: 20px;
-  line-height: 1.35;
-  letter-spacing: 2px;
-  color: #2E2E2E;
+    font-family: Oxygen;
+    font-size: 20px;
+    line-height: 1.35;
+    letter-spacing: 2px;
+    color: #2E2E2E;
 }
 
 .under-main-content__posts
@@ -207,18 +207,18 @@
 
 .posts-text__headline
 {
-  font-family: Lora;
-  font-size: 16px;
-  line-height: 1.32;
-  color: black;
+    font-family: Lora;
+    font-size: 16px;
+    line-height: 1.32;
+    color: black;
 }
 
 .posts-text__text
 {
-  font-family: Oxygen;
-  font-size: 13px;
-  line-height: 1.46;
-  color: #7A7A7A;
+    font-family: Oxygen;
+    font-size: 13px;
+    line-height: 1.46;
+    color: #7A7A7A;
 }
 
 .posts-text__image
@@ -228,29 +228,29 @@
 
 .posts-text__photo
 {
-  border-radius: 60px;
+    border-radius: 60px;
 }
 
 .posts-text__info
 {
-  font-family: Oxygen;
-  font-size: 12px;
-  line-height: 2.92;
-  color: #999999;
+    font-family: Oxygen;
+    font-size: 12px;
+    line-height: 2.92;
+    color: #999999;
 }
 
 .footer 
 {
-  background-image: url(../image/footer.png);
-  background-color: rgba(35, 47, 56, 0.6);
+    background-image: url(../image/footer.png);
+    background-color: rgba(35, 47, 56, 0.6);
 }
 
 .footer__logo
 {
-  font-family: Lora;
-  font-size: 26px;
-  line-height: 1;
-  color: white;
+    font-family: Lora;
+    font-size: 26px;
+    line-height: 1;
+    color: white;
 }
 
 .footer__navigation
@@ -260,18 +260,18 @@
 
 .footer-navigation__link
 {
-  text-decoration: none;
-  font-family: Oxygen;
-  font-size: 11px;
-  line-height: 1.82;
-  letter-spacing: 0.6px;
-  color: rgba(255, 255, 255, 0.6); 
+    text-decoration: none;
+    font-family: Oxygen;
+    font-size: 11px;
+    line-height: 1.82;
+    letter-spacing: 0.6px;
+    color: rgba(255, 255, 255, 0.6); 
 }
 
 .second-top-block
 {
-  width: 100%;
-  height: 360px;
+    width: 100%;
+    height: 360px;
 }
 
 .second-top-block__menu 
@@ -281,10 +281,10 @@
 
 .second-menu__logo 
 {
-  font-family: Lora;
-  font-size: 26px;
-  line-height: 1;
-  color: black;
+    font-family: Lora;
+    font-size: 26px;
+    line-height: 1;
+    color: black;
 }
 
 .second-menu__navigation 
@@ -293,52 +293,52 @@
 
 .second-navigation__link 
 {
-  text-decoration: none;
-  font-family: Oxygen;
-  font-size: 11px;
-  line-height: 1.82;
-  letter-spacing: 0.6px;
-  color: black;
+    text-decoration: none;
+    font-family: Oxygen;
+    font-size: 11px;
+    line-height: 1.82;
+    letter-spacing: 0.6px;
+    color: black;
 }
 
 .second-top-block__centertext
 {
-  color: black;
+    color: black;
 }
 
 .second-centertext__main
 {
-  font-family: Lora;
-  font-size: 50px;
-  line-height: 1;
+    font-family: Lora;
+    font-size: 50px;
+    line-height: 1;
 }
 
 .second-centertext__slogan
 {
-  font-family: Oxygen;
-  font-size: 17px;
-  line-height: 1.18;
-  color: rgba(0, 0, 0, 0.63);
+    font-family: Oxygen;
+    font-size: 17px;
+    line-height: 1.18;
+    color: rgba(0, 0, 0, 0.63);
 }
 
 .second-image-post
 {
-  width: 100%;
-  height: 534px;
+    width: 100%;
+    height: 534px;
 }
 
 .second-image-post img
 {
-  position: absolute;
-  width: 100%;
-  height: 534px;
-  object-fit:cover;
+    position: absolute;
+    width: 100%;
+    height: 534px;
+    object-fit:cover;
 }
 
 .second-article
 {
-  font-family: Oxygen;
-  font-size: 24px;
-  line-height: 1.46;
-  color: #101315;
+    font-family: Oxygen;
+    font-size: 24px;
+    line-height: 1.46;
+    color: #101315;
 }
