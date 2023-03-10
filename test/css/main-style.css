@@ -1,0 +1,57 @@
+.top-block
+{
+    background-color: #2E2E2E;
+}
+
+.top-block__logo 
+{
+    font-family: Lora;
+    font-size: 26px;
+    line-height: 1;
+    color: white;
+}
+
+.top-block__navigation
+{
+
+}
+
+.navigation__link 
+{
+    text-decoration: none;
+    font-family: Oxygen;
+    font-size: 11px;
+    line-height: 1.82;
+    letter-spacing: 0.6px;
+    color: white;
+}
+
+.footer 
+{
+    background-image: url(../image/footer.png);
+    background-color: rgba(35, 47, 56, 0.6);
+    background-size: 100%;
+}
+
+.footer__logo
+{
+    font-family: Lora;
+    font-size: 26px;
+    line-height: 1;
+    color: white;
+}
+
+.footer__navigation
+{
+
+}
+
+.footer-navigation__link
+{
+    text-decoration: none;
+    font-family: Oxygen;
+    font-size: 11px;
+    line-height: 1.82;
+    letter-spacing: 0.6px;
+    color: rgba(255, 255, 255, 0.6); 
+}

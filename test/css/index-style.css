@@ -1,0 +1,221 @@
+.index-headline
+{
+    color: white;
+    background-image: url(../image/top_block.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+}
+
+.index-headline__slogan
+{
+    font-family: Lora;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.index-headline__description
+{
+    font-family: Oxygen;
+    font-size: 17px;
+    line-height: 1.18;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.index-headline__button
+{
+    background-color: #DD783F;
+    border-width: 0;
+    border-radius: 3px;
+    height: 44px;
+    width: 167px;
+    font-family: Oxygen; 
+    font-size: 13px;
+    line-height: 1.54;
+    color: white;
+}
+
+.top-menu
+{
+    background-color: white;
+}
+
+.top-menu__link
+{
+    text-decoration: none;
+    font-family: Lora;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #768088;
+}
+
+.feautured-posts
+{
+    background-color: #F7F7F7;
+}
+
+.feautured-posts__posts_the-road-ahead
+{
+    background-image: url(../image/mountain.png);
+    background-size: 100%;
+    width: 460px;
+    height: 280px;
+}
+
+.feautured-post__headline
+{
+    font-family: Oxygen;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.35;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.feautured-post__headline_link
+{
+    text-decoration: none;
+    font-family: Lora;
+    font-size: 27px;
+    line-height: 1.11;
+    color: white;
+}
+
+.feautured-post__text
+{
+    font-family: Oxygen;
+    font-size: 14px;
+    line-height: 1.79;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.feautured-post__image
+{
+    border-radius: 60px;
+}
+
+.feautured-post__name
+{
+    font-family: Oxygen;
+    font-size: 12px;
+    line-height: 2.92;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.feautured-post__date
+{
+    font-family: Oxygen;
+    font-size: 12px;
+    line-height: 2.92;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.feautured-posts__posts_from-top-down
+{
+    background-image: url(../image/lights.png);
+    background-size: 100%;
+    width: 460px;
+    height: 280px;
+}
+
+.most-recent
+{
+    background-color: #F7F7F7;
+}
+
+.most-recent__logo
+{
+    font-family: Oxygen;
+    font-size: 20px;
+    line-height: 1.35;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.most-recent__posts_baloons
+{
+    background-image: url(../image/baloons.png);
+    width: 296px;
+    height: 150px;
+}
+
+
+.posts__headline
+{
+    font-family: Lora;
+    font-size: 16px;
+    line-height: 1.32;
+    color: black;
+}
+
+.posts__text
+{
+    font-family: Oxygen;
+    font-size: 13px;
+    line-height: 1.46;
+    color: #7A7A7A;
+}
+
+.info__image
+{
+    border-radius: 60px;
+}
+
+.most-recent__info
+{
+    font-family: Oxygen;
+    font-size: 12px;
+    line-height: 2.92;
+    color: #999999;
+}
+
+.info_name
+{
+    font-family: Oxygen;
+    font-size: 12px;
+    line-height: 2.92;
+    color: #999999;
+}
+
+.info_date
+{
+    font-family: Oxygen;
+    font-size: 12px;
+    line-height: 2.92;
+    color: #999999;
+}
+
+.most-recent__posts_bridge
+{
+    background-image: url(../image/bridge.png);
+    width: 296px;
+    height: 150px;
+}
+
+.most-recent__posts_sunshine
+{
+    background-image: url(../image/sunshine.png);
+    width: 296px;
+    height: 150px;
+}
+
+.most-recent__posts_sea
+{
+    background-image: url(../image/sea.png);
+    width: 296px;
+    height: 150px;
+}
+
+.most-recent__posts_fog
+{
+    background-image: url(../image/fog.png);
+    width: 296px;
+    height: 150px;
+}
+
+.most-recent__posts_rainbow
+{
+    background-image: url(../image/rainbow.png);
+    width: 296px;
+    height: 150px;
+}

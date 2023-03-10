@@ -3,25 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <title>The Road Ahead</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main-style.css" rel="stylesheet">
+    <link href="css/index-style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&display=swap" rel="stylesheet">  
   </head>
   <body>
-    <div class="top-block">
-      <header class="top-block__menu menu">
-        <span class="menu__logo">Escape.</span>
-        <nav class="menu__navigation navigation">
-          <a href="#" class="navigation__link">HOME</a>
-          <a href="#" class="navigation__link">CATEGORIES</a>
-          <a href="#" class="navigation__link">ABOUT</a>
-          <a href="#" class="navigation__link">CONTACT</a>
-        </nav>
-      </header>
-      <div class="top-block__centertext centertext">
-        <h1 class="centertext__main">Let's do it together</h1>
-        <span class="centertext__slogan">We travel the world in search of stories. Come along for the ride.</span>
-      </div>
-      <button class="top-block__button" href="#">View Latest Posts</button>
+    <header class="top-block">
+      <span class="top-block__logo">Escape.</span>
+      <nav class="top-block__navigation navigation">
+        <a href="#" class="navigation__link">HOME</a>
+        <a href="#" class="navigation__link">CATEGORIES</a>
+        <a href="#" class="navigation__link">ABOUT</a>
+        <a href="#" class="navigation__link">CONTACT</a>
+      </nav>
+    </header>
+    <div class="index-headline">
+      <h1 class="index-headline__slogan">Let's do it together</h1>
+      <span class="index-headline__description">We travel the world in search of stories. Come along for the ride.</span>
+      <button class="index-headline__button" href="#">View Latest Posts</button>
     </div>
     <div class="top-menu">
       <a href="#" class="top-menu__link">Nature</a>
@@ -30,72 +29,82 @@
       <a href="#" class="top-menu__link">Vacation</a>
       <a href="#" class="top-menu__link">Travel</a>
     </div>
-    <div class="main-content">
-      <h2 class="main-content__centertext">Feautured Posts</h2>
-      <div class="main-content__leftpost leftpost">
-        <h3 class="leftpost__headline"><a class="leftpost__headline_link" href="the-road-ahead.html">The Road Ahead</a></h3>
-        <h4 class="leftpost__text">The road ahead might be paved - it might not be</h4>
-        <img class="leftpost__image" src="image/max-vogels.png" alt="max_vogels">
-        <span class="leftpost__info">Mat Vogels</span>
-        <span class="leftpost__info">September 25, 2015</span>
+    <div class="feautured-posts">
+      <h2 class="feautured-posts__headline">Feautured Posts</h2>
+      <div class="feautured-posts__posts_the-road-ahead feautured-post">
+        <h3>
+          <a class="feautured-post__headline_link" href="the-road-ahead.html">The Road Ahead</a>
+        </h3>
+        <h4 class="feautured-post__text">The road ahead might be paved - it might not be</h4>
+        <img class="feautured-post__image" src="image/max-vogels.png" alt="max_vogels">
+        <span class="feautured-post__name">Mat Vogels</span>
+        <span class="feautured-post__date">September 25, 2015</span>
       </div>
-      <div class="main-content__rightpost rightpost">
-        <h3 class="rightpost__headline"><a class="rightpost__headline_link" href="#">From Top Down</a></h3>
-        <h4 class="rightpost__text">Once a year, go someplace you’ve never been before.</h4>
-        <img class="rightpost__image" src="image/william-wong.png" alt="william_wong">
-        <span class="rightpost__info">William Wong</span>
-        <span class="rightpost__info">September 25, 2015</span>
+      <div class="feautured-posts__posts_from-top-down feautured-post">
+        <h3>
+          <a class="feautured-post__headline_link" href="#">From Top Down</a>
+        </h3>
+        <h4 class="feautured-post__text">Once a year, go someplace you’ve never been before.</h4>
+        <img class="feautured-post__image" src="image/william-wong.png" alt="william_wong">
+        <span class="feautured-post__name">William Wong</span>
+        <span class="feautured-post__date">September 25, 2015</span>
       </div>
     </div>
-    <div class="under-main-content">
-      <h2 class="under-main-content__centertext">Most Recent</h2>
-      <div class="under-main-content__posts_first posts-text">
-        <img class="posts-text__image" src="image/baloons.png" alt="baloons">
-        <h4 class="posts-text__headline">Still Standing Tall</h4>
-        <h5 class="posts-text__text">Life begins at the end of your comfort zone.</h5>
-        <img class="posts-text__photo" src="image/william-wong.png" alt="william_wong">
-        <span class="posts-text__info">William Wong</span>
-        <span class="posts-text__info">9/25/2015</span>
+    <div class="most-recent">
+      <h2 class="most-recent__logo">Most Recent</h2>
+      <div class="most-recent__posts_baloons posts">
+        <h3 class="posts__headline">Still Standing Tall</h4>
+        <h4 class="posts__text">Life begins at the end of your comfort zone.</h5>
       </div>
-      <div class="under-main-content__posts_second posts-text">
-        <img class="posts-text__image" src="image/bridge.png" alt="bridge">
-        <h4 class="posts-text__headline">Sunny Side Up</h4>
-        <h5 class="posts-text__text">No place is ever as bad as they tell you it’s going to be.</h5>
-        <img class="posts-text__photo" src="image/max-vogels.png" alt="max_vogels">
-        <span class="posts-text__info">Mat Vogels</span>
-        <span class="posts-text__info">9/25/2015</span>
+      <div class="most-recent__info info">
+        <img class="info__image" src="image/william-wong.png" alt="william_wong">
+        <span class="info_name">William Wong</span>
+        <span class="info_date">9/25/2015</span>
       </div>
-      <div class="under-main-content__posts_third posts-text">
-        <img class="posts-text__image" src="image/sunshine.png" alt="sunshine">
-        <h4 class="posts-text__headline">Water Falls</h4>
-        <h5 class="posts-text__text">We travel not to escape life, but for life not to escape us.</h5>
-        <img class="posts-text__photo" src="image/max-vogels.png" alt="max_vogels">
-        <span class="posts-text__info">Mat Vogels</span>
-        <span class="posts-text__info">9/25/2015</span>
+      <div class="most-recent__posts_bridge posts">
+        <h3 class="posts__headline">Sunny Side Up</h4>
+        <h4 class="posts__text">No place is ever as bad as they tell you it’s going to be.</h5>
       </div>
-      <div class="under-main-content__posts_forth posts-text">
-        <img class="posts-text__image" src="image/sea.png" alt="sea">
-        <h4 class="posts-text__headline">Through the Mist</h4>
-        <h5 class="posts-text__text">Travel makes you see what a tiny place you occupy in the world.</h5>
-        <img class="posts-text__photo" src="image/william-wong.png" alt="william_wong">
-        <span class="posts-text__info">William Wong</span>
-        <span class="posts-text__info">9/25/2015</span>
+      <div class="most-recent__info info">
+        <img class="info__photo" src="image/max-vogels.png" alt="max_vogels">
+        <span class="info_name">Mat Vogels</span>
+        <span class="info_date">9/25/2015</span>
       </div>
-      <div class="under-main-content__posts_fives posts-text">
-        <img class="posts-text__image" src="image/fog.png" alt="fog">
-        <h4 class="posts-text__headline">Awaken Early</h4>
-        <h5 class="posts-text__text">Not all those who wander are lost.</h5>
-        <img class="posts-text__photo" src="image/max-vogels.png" alt="max_vogels">
-        <span class="posts-text__info">Mat Vogels</span>
-        <span class="posts-text__info">9/25/2015</span>
+      <div class="most-recent__posts_sunshine posts">
+        <h3 class="posts__headline">Water Falls</h4>
+        <h4 class="posts__text">We travel not to escape life, but for life not to escape us.</h5>
       </div>
-      <div class="under-main-content__posts_sixth posts-text">
-        <img class="posts-text__image" src="image/rainbow.png" alt="rainbow">
-        <h4 class="posts-text__headline">Try it Always</h4>
-        <h5 class="posts-text__text">The world is a book, and those who do not travel read only one page.</h5>
-        <img class="posts-text__photo"src="image/max-vogels.png" alt="max_vogels">
-        <span class="posts-text__info">Mat Vogels</span>
-        <span class="posts-text__info">9/25/2015</span>
+      <div class="most-recent__info info">
+        <img class="info__photo" src="image/max-vogels.png" alt="max_vogels">
+        <span class="info_name">Mat Vogels</span>
+        <span class="info_date">9/25/2015</span>
+      </div>
+      <div class="most-recent__posts_sea posts">
+        <h3 class="posts__headline">Through the Mist</h4>
+        <h4 class="posts__text">Travel makes you see what a tiny place you occupy in the world.</h5>
+      </div>
+      <div class="most-recent__info info">
+        <img class="info__image" src="image/william-wong.png" alt="william_wong">
+        <span class="info_name">William Wong</span>
+        <span class="info_date">9/25/2015</span>
+      </div>
+      <div class="most-recent__posts_fog posts">
+        <h3 class="posts__headline">Awaken Early</h4>
+        <h4 class="posts__text">Not all those who wander are lost.</h5>
+      </div>
+      <div class="most-recent__info info">
+        <img class="info__photo" src="image/max-vogels.png" alt="max_vogels">
+        <span class="info_name">Mat Vogels</span>
+        <span class="info_date">9/25/2015</span>
+      </div>
+      <div class="most-recent__posts_rainbow posts">
+        <h3 class="posts__headline">Try it Always</h4>
+        <h4 class="posts__text">The world is a book, and those who do not travel read only one page.</h5>
+      </div>
+      <div class="most-recent__info info">
+        <img class="info__photo" src="image/max-vogels.png" alt="max_vogels">
+        <span class="info_name">Mat Vogels</span>
+        <span class="info_date">9/25/2015</span>
       </div>
     </div>
     <footer class="footer">
