@@ -9,10 +9,6 @@
     color: white;
 }
 
-.top-block__navigation
-{
-}
-
 .navigation__link 
 {
     text-decoration: none;
@@ -32,11 +28,6 @@
 {
     font: 400 26px 'Lora';
     color: white;
-}
-
-.footer__navigation
-{
-
 }
 
 .footer-navigation__link

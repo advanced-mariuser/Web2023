@@ -22,12 +22,12 @@
     color: black;
 }
 
-.post-headline__main
+.post-headline__title
 {
     font: 400 50px 'Lora';
 }
 
-.post-headline__slogan
+.post-headline__quote
 {
     font: 400 17px/1.18 'Oxygen';
     color: rgba(0, 0, 0, 0.63);
@@ -35,17 +35,13 @@
 
 .image-post
 {
+    box-sizing: border-box;
     width: 100%;
-    height: 534px;
+    height: 543px;
 }
 
 .post-article
 {
     font: 400 24px/1.46 'Oxygen';
     color: #101315;
-}
-
-.post-article__text
-{
-    
 }

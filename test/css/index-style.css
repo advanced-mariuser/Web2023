@@ -1,12 +1,8 @@
-.body
-{
-    margin-left: 0px
-}
-
 .headline
 {
     color: white;
     background-image: url(../image/top_block.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 200px;
 }
@@ -33,7 +29,6 @@
     box-sizing: border-box;
     padding-top: 12px;
     padding-bottom: 12px;
-    margin-right: 1333px;
 }
 
 .top-menu
@@ -54,17 +49,7 @@
     background-color: #F7F7F7;
 }
 
-.feautured-posts__posts_the-road-ahead
-{
-    background-image: url(../image/mountain.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 149px;
-    margin-right: 1040px;
-    border-radius: 3px;
-}
-
-.feautured-posts__headline
+.feautured-posts__title
 {
     font: 400 20px/1.35 'Oxygen';
     letter-spacing: 2px;
@@ -75,14 +60,36 @@
     padding-bottom: 16px;
 }
 
-.big-post__headline_link
+.feautured-posts__feautured-post_the-road-ahead
+{
+    background-image: url(../image/mountain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-bottom: 149px;
+    max-width: 460px;
+    border-radius: 3px;
+}
+
+.feautured-posts__feautured-post_from-top-down
+{
+    background-image: url(../image/lights.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-bottom: 104px;
+    max-width: 460px;
+    border-radius: 3px;
+}
+
+.feautured-post__headline_link
 {
     text-decoration: none;
     font: 400 27px/1.11 'Lora';
     color: white;
 }
 
-.big-post__button
+.feautured-post__button
 {
     background-color: #DD783F;
     border-width: 0;
@@ -93,40 +100,30 @@
     color: white;
     text-align: center;
     box-sizing: border-box;
-    padding-top:2%;
+    padding-top:1%;
 }
 
-.big-post__text
+.feautured-post__quote
 {
     font: 400 14px/1.79 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
 }
 
-.big-post__image
+.feautured-post__image
 {
     border-radius: 60px;
 }
 
-.big-post__name
+.feautured-post__author
 {
     font: 400 12px/2.92 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
 }
 
-.big-post__date
+.feautured-post__date
 {
     font: 400 12px/2.92 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
-}
-
-.feautured-posts__posts_from-top-down
-{
-    background-image: url(../image/lights.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 149px;
-    margin-right: 1040px;
-    border-radius: 3px;
 }
 
 .most-recent
@@ -134,7 +131,7 @@
     background-color: #F7F7F7;
 }
 
-.most-recent__logo
+.most-recent__title
 {
     font: 400 20px/1.35 'Oxygen';
     letter-spacing: 2px;
@@ -145,29 +142,36 @@
     padding-bottom: 16px;
 }
 
-.most-recent__posts
+.most-recent__most-recent-post
 {
     background-color: white;
-    width: 296px;
+    box-sizing: border-box;
+    max-width: 296px;
 }
 
-.posts__image
+.most-recent-post__image
 {
-    width: 296px;
-    height: 150px;
     size: 100%;
 }
 
-.posts__headline
+.most-recent-post__headline
 {
     font: 400 16px/1.32 'Lora';
     color: black;
 }
 
-.posts__text
+.most-recent-post__quote
 {
     font: 400 13px/1.46 'Oxygen';
     color: #7A7A7A;
+}
+
+.most-recent-post__info
+{
+    font: 400 12px/2.92 'Oxygen';
+    color: #999999;
+    background-color: #FCFCFC;
+    border-top: 1px solid #fcfcfc9c;
 }
 
 .info__image
@@ -175,16 +179,7 @@
     border-radius: 60px;
 }
 
-.posts__most-recent_info
-{
-    font: 400 12px/2.92 'Oxygen';
-    color: #999999;
-    background-color: #FCFCFC;
-    width: 296px;
-    border-top: 1px solid #EFEFEF;
-}
-
-.info_name
+.info_author
 {
     font: 400 12px/2.92 'Oxygen';
     color: #999999;
@@ -193,5 +188,5 @@
 .info_date
 {
     font: 400 12px/2.92 'Oxygen';
-        color: #999999;
+    color: #999999;
 }
