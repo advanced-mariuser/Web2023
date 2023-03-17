@@ -3,54 +3,49 @@
     background-color: white;
 }
 
-.menu__logo 
+.top-block__logo 
 {
-    font-family: Lora;
-    font-size: 26px;
-    line-height: 1;
+    font: 400 26px 'Lora';
     color: black;
 }
 
 .navigation__link 
 {
     text-decoration: none;
-    font-family: Oxygen;
-    font-size: 11px;
-    line-height: 1.82;
+    font: 400 11px/1.82 'Oxygen';
     letter-spacing: 0.6px;
     color: black;
 }
 
-.theroadahead__centertext
+.post-headline
 {
     color: black;
 }
 
-.headtext__main
+.post-headline__main
 {
-    font-family: Lora;
-    font-size: 50px;
-    line-height: 1;
+    font: 400 50px 'Lora';
 }
 
-.headtext__slogan
+.post-headline__slogan
 {
-    font-family: Oxygen;
-    font-size: 17px;
-    line-height: 1.18;
+    font: 400 17px/1.18 'Oxygen';
     color: rgba(0, 0, 0, 0.63);
 }
 
-.theroadahead-image-post
+.image-post
 {
     width: 100%;
     height: 534px;
 }
 
-.theroadahead-article
+.post-article
 {
-    font-family: Oxygen;
-    font-size: 24px;
-    line-height: 1.46;
+    font: 400 24px/1.46 'Oxygen';
     color: #101315;
+}
+
+.post-article__text
+{
+    
 }

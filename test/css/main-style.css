@@ -5,23 +5,18 @@
 
 .top-block__logo 
 {
-    font-family: Lora;
-    font-size: 26px;
-    line-height: 1;
+    font: 400 26px 'Lora';
     color: white;
 }
 
 .top-block__navigation
 {
-
 }
 
 .navigation__link 
 {
     text-decoration: none;
-    font-family: Oxygen;
-    font-size: 11px;
-    line-height: 1.82;
+    font: 400 11px/1.82 'Oxygen';
     letter-spacing: 0.6px;
     color: white;
 }
@@ -35,9 +30,7 @@
 
 .footer__logo
 {
-    font-family: Lora;
-    font-size: 26px;
-    line-height: 1;
+    font: 400 26px 'Lora';
     color: white;
 }
 
@@ -49,9 +42,7 @@
 .footer-navigation__link
 {
     text-decoration: none;
-    font-family: Oxygen;
-    font-size: 11px;
-    line-height: 1.82;
+    font: 400 11px/1.82 'Oxygen';
     letter-spacing: 0.6px;
     color: rgba(255, 255, 255, 0.6); 
 }
