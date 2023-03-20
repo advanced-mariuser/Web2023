@@ -4,37 +4,53 @@
     background-image: url(../image/top_block.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .headline__slogan
 {
-    font: 400 50px 'Lora';
+    font: 400 50px/1.02 'Lora';
+    letter-spacing: 2px;
+    display: flex;
+    margin-top: 11.7%;
 }
 
 .headline__description
 {
     font: 400 17px/1.18 'Oxygen';
     color: rgba(255, 255, 255, 0.63);
+    display: flex;
 }
 
 .headline__button
 {
+    display: flex;
+    justify-content: center;
     background-color: #DD783F;
     border-width: 0;
     border-radius: 3px;
     font: 400 13px/1.54 'Oxygen';
     color: white;
-    text-align: center;
-    box-sizing: border-box;
     padding-top: 12px;
     padding-bottom: 12px;
+    width: 11.6%;
 }
 
 .top-menu
 {
     background-color: white;
-    padding-bottom: 45px;
+    padding-bottom: 22.5px;
+    padding-top: 22.5px;
+    padding-left: 20.5%;
+    padding-right: 20.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .top-menu__link
@@ -47,10 +63,14 @@
 .feautured-posts
 {
     background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .feautured-posts__title
 {
+
     font: 400 20px/1.35 'Oxygen';
     letter-spacing: 2px;
     text-align: center;
@@ -60,25 +80,29 @@
     padding-bottom: 16px;
 }
 
-.feautured-posts__feautured-post_the-road-ahead
+.feautured-post-blogs
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.feautured-post-blogs__feautured-post_the-road-ahead
 {
     background-image: url(../image/mountain.png);
-    background-size: contain;
     background-repeat: no-repeat;
     box-sizing: border-box;
-    padding-bottom: 149px;
-    max-width: 460px;
+    padding-bottom: 160px;
+    width: 460px;
     border-radius: 3px;
 }
 
-.feautured-posts__feautured-post_from-top-down
+.feautured-post-blogs__feautured-post_from-top-down
 {
     background-image: url(../image/lights.png);
-    background-size: contain;
     background-repeat: no-repeat;
     box-sizing: border-box;
-    padding-bottom: 104px;
-    max-width: 460px;
+    padding-bottom: 160px;
+    width: 460px;
     border-radius: 3px;
 }
 
@@ -129,6 +153,10 @@
 .most-recent
 {
     background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .most-recent__title
@@ -142,11 +170,20 @@
     padding-bottom: 16px;
 }
 
-.most-recent__most-recent-post
+.most-recents-blogs
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+.most-recent-post
 {
     background-color: white;
     box-sizing: border-box;
-    max-width: 296px;
+    width: 296px;
 }
 
 .most-recent-post__image
