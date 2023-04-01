@@ -21,7 +21,7 @@
 .post-headline
 {
     color: black;
-    padding: 6% 0 6%;
+    margin: 6% 0 6%;
 }
 
 .post-headline__title
@@ -53,10 +53,10 @@
 {
     font: 400 24px/1.46 'Oxygen';
     color: #101315;
-    margin: 6% 21%;
-}
+    padding: 140px 240px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    background-color: #F7F7F7;
 
-.post-article__paragraph
-{
-    margin-bottom: 4%;
 }

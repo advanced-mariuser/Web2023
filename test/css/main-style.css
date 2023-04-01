@@ -38,7 +38,7 @@
     background-image: url(../image/footer.png);
     background-size: cover;
     width: 100%;
-    margin: 105px 0 0;
+    padding: 81px 0 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -46,8 +46,7 @@
 
 .basement-menu
 {
-    background: #232F38;
-    opacity: 60%;
+    background: rgba(35, 47, 56, 0.6); 
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -84,7 +83,6 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    margin: 5.5% 0 0;
 }
 
 .basement-form__heading
