@@ -1,56 +1,62 @@
+.page
+{
+    background: #F7F7F7;
+}
+
 .headline
 {
     color: white;
     background-image: url(../image/top_block.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 12%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
+    padding: 12% 0 10.5% ;
 }
 
 .headline__slogan
 {
     font: 400 50px/1.02 'Lora';
     letter-spacing: 2px;
-    display: flex;
-    margin-top: 11.7%;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .headline__description
 {
     font: 400 17px/1.18 'Oxygen';
     color: rgba(255, 255, 255, 0.63);
-    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 1.5% 0 0;
 }
 
 .headline__button
 {
-    display: flex;
-    justify-content: center;
     background-color: #DD783F;
     border-width: 0;
     border-radius: 3px;
     font: 400 13px/1.54 'Oxygen';
     color: white;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    width: 11.6%;
+    display: block;
+    margin: 2% auto 0;
+    width: 167px;
+    height: 44px;
+    background: #DD783F;
+    border: 0px;
+    border-radius: 3px;
 }
 
 .top-menu
 {
-    background-color: white;
-    padding-bottom: 22.5px;
-    padding-top: 22.5px;
-    padding-left: 20.5%;
-    padding-right: 20.5%;
+    width: 100%;
+    padding: 22px 17% 23px;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background: #FFFFFF;
 }
 
 .top-menu__link
@@ -62,10 +68,11 @@
 
 .feautured-posts
 {
-    background-color: #F7F7F7;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    margin: 60px 17% 0;
 }
 
 .feautured-posts__title
@@ -76,34 +83,37 @@
     text-align: center;
     color: #2E2E2E;
     width: 188px;
-    border-bottom: 1px solid #DEDEDE;
-    padding-bottom: 16px;
+    margin: 0 0 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #DEDEDE;
+    text-underline-offset: 16px;
+    width: 100%;
 }
 
-.feautured-post-blogs
+.feautured-post
 {
+    background-repeat: no-repeat;
+    max-width: 460px;
+    width: 100%;
+    height: 280px;
+    border-radius: 3px;
+    margin: 21px 0 0;
+    box-sizing: border-box;
+    padding: 20px 20px 15px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: end;
 }
 
-.feautured-post-blogs__feautured-post_the-road-ahead
+.feautured-posts__feautured-post_the-road-ahead
 {
     background-image: url(../image/mountain.png);
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    padding-bottom: 160px;
-    width: 460px;
-    border-radius: 3px;
 }
 
-.feautured-post-blogs__feautured-post_from-top-down
+.feautured-posts__feautured-post_from-top-down
 {
     background-image: url(../image/lights.png);
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    padding-bottom: 160px;
-    width: 460px;
-    border-radius: 3px;
 }
 
 .feautured-post__headline_link
@@ -111,96 +121,115 @@
     text-decoration: none;
     font: 400 27px/1.11 'Lora';
     color: white;
+    margin: 0 0 5px;
 }
 
 .feautured-post__button
 {
-    background-color: #DD783F;
-    border-width: 0;
-    border-radius: 3px;
-    height: 26px;
-    width: 87px;
     font: 400 12px 'Oxygen';
-    color: white;
+    width: 87px;
+    height: 26px;
+    background: #DD783F;
     text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 5px;
     box-sizing: border-box;
-    padding-top:1%;
+    margin-bottom: 112px;
 }
 
 .feautured-post__quote
 {
     font: 400 14px/1.79 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
+    margin: 0 0 12px;
 }
 
-.feautured-post__image
+.featured-post-info
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-post-info__author-info
+{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.author-info__image
 {
     border-radius: 60px;
+    width: 26px;
+    height: 26px;
+    margin: 0;
 }
 
-.feautured-post__author
+.author-info__author
 {
     font: 400 12px/2.92 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
+    margin: 0;
 }
 
-.feautured-post__date
+.feautured-post-info__date
 {
     font: 400 12px/2.92 'Oxygen';
     color: rgba(255, 255, 255, 0.7);
+    margin: 0;
 }
 
 .most-recent
 {
-    background-color: #F7F7F7;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    margin: 67px 21% 0;
 }
 
 .most-recent__title
 {
     font: 400 20px/1.35 'Oxygen';
     letter-spacing: 2px;
-    text-align: center;
     color: #2E2E2E;
-    width: 188px;
-    border-bottom: 1px solid #DEDEDE;
-    padding-bottom: 16px;
-}
-
-.most-recents-blogs
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 17.5%;
-    margin-right: 17.5%;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #DEDEDE;
+    text-underline-offset: 16px;
+    margin: 0 0 19px;
 }
 
 .most-recent-post
 {
-    background-color: white;
-    box-sizing: border-box;
     width: 296px;
+    height: 291px;
+    background-color: #ffffff;
+    margin: 20px 0 0;
 }
 
 .most-recent-post__image
 {
-    size: 100%;
+    width: 296px;
+    height: 150px;
+    margin-bottom: 10px;
 }
 
 .most-recent-post__headline
 {
     font: 400 16px/1.32 'Lora';
     color: black;
+    margin: 0 0 0 13px;
 }
 
 .most-recent-post__quote
 {
     font: 400 13px/1.46 'Oxygen';
     color: #7A7A7A;
+    margin: 8px 13px 20px;
+    height: 38px;
 }
 
 .most-recent-post__info
@@ -208,22 +237,38 @@
     font: 400 12px/2.92 'Oxygen';
     color: #999999;
     background-color: #FCFCFC;
-    border-top: 1px solid #fcfcfc9c;
+    border-top: 1px solid #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 13px;
 }
 
-.info__image
+.author-info-recent
+{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.author-info-recent__image
 {
     border-radius: 60px;
+    width: 26px;
+    height: 26px;
+    margin: 0;
 }
 
-.info_author
+.author-info-recent__author
 {
     font: 400 12px/2.92 'Oxygen';
     color: #999999;
+    margin: 0;
 }
 
 .info_date
 {
     font: 400 12px/2.92 'Oxygen';
     color: #999999;
+    margin: 0;
 }
+
