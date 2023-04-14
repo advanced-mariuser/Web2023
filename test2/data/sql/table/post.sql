@@ -1,4 +1,3 @@
-DROP TABLE post;
 CREATE TABLE post
 (
    `post_id`       INT NOT NULL AUTO_INCREMENT,
@@ -14,5 +13,3 @@ CREATE TABLE post
 CHARACTER SET = utf8mb4
 COLLATE utf8mb4_unicode_ci
 ;
-USE blog;
-SELECT * FROM post;

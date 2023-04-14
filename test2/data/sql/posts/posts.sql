@@ -12,7 +12,7 @@ VALUES
 (
   'The Road Ahead',
   'The road ahead might be paved - it might not be.',
-  'feautured-posts__feautured-post_the-road-ahead feautured-post"'
+  'feautured-posts__feautured-post_the-road-ahead feautured-post',
   'Mat Vogels',
   'static/image/max-vogels.png',
   'September 25, 2015',
@@ -32,7 +32,7 @@ VALUES
 (
   'From Top Down',
   'Once a year, go someplace you’ve never been before.',
-  'feautured-posts__feautured-post_from-top-down feautured-post'
+  'feautured-posts__feautured-post_from-top-down feautured-post',
   'William Wong',
   'static/image/william-wong.png',
   'September 25, 2015',
@@ -132,7 +132,7 @@ VALUES
 (
   'static/image/fog.png',
   'Awaken Early',
-  'Not all those who wander are lost.'
+  'Not all those who wander are lost.',
   'Mat Vogels',
   'static/image/max-vogels.png',
   '9/25/2015',
@@ -152,7 +152,7 @@ VALUES
 (  
   'static/image/rainbow.png',
   'Try it Always',
-  'he world is a book, and those who do not travel read only one page.'
+  'She world is a book, and those who do not travel read only one page.',
   'Mat Vogels',
   'static/image/max-vogels.png',
   '9/25/2015',

@@ -16,21 +16,21 @@ type indexPage struct {
 }
 
 type featuredPostData struct {
-	Title       string "db:`title`"
-	Description string "db:`description`"
-	ImgModifier string "db:`image_url`"
-	Author      string "db:`author`"
-	AuthorImg   string "db:`author_url`"
-	PublishDate string "db:`publish_date`"
+	Title       string `db:"title"`
+	Description string `db:"description"`
+	ImgModifier string `db:"image_url"`
+	Author      string `db:"author"`
+	AuthorImg   string `db:"author_url"`
+	PublishDate string `db:"publish_date"`
 }
 
 type mostRecentPostData struct {
-	PostImg     string "db:`image_url`"
-	Title       string "db:`title`"
-	Description string "db:`description`"
-	AuthorImg   string "db:`author_url`"
-	Author      string "db:`author`"
-	PublishDate string "db:`publish_date`"
+	PostImg     string `db:"image_url"`
+	Title       string `db:"title"`
+	Description string `db:"description"`
+	AuthorImg   string `db:"author_url"`
+	Author      string `db:"author"`
+	PublishDate string `db:"publish_date"`
 }
 
 type postPage struct {
@@ -45,14 +45,14 @@ type paragraphData struct {
 
 func index(db *sqlx.DB) func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
-		posts, err := featuredPosts(db)
+		featuredPostsData, err := featuredPosts(db)
 		if err != nil {
 			http.Error(w, "Internal Server Error", 500)
 			log.Println(err)
 			return
 		}
 
-		most, err := mostRecentsPosts(db)
+		mostRecentPostsData, err := mostRecentPosts(db)
 		if err != nil {
 			http.Error(w, "Internal Server Error", 500)
 			log.Println(err)
@@ -62,21 +62,21 @@ func index(db *sqlx.DB) func(w http.ResponseWriter, r *http.Request) {
 		ts, err := template.ParseFiles("pages/index.html")
 		if err != nil {
 			http.Error(w, "Internal error", 500)
-			log.Println(err.Error())
+			log.Println(err)
 			return
 		}
 
 		data := indexPage{
 			Title:           "Let's do it together.",
 			SubTitle:        "We travel the world in search of stories. Come along for the ride.",
-			FeaturedPosts:   featuredPosts(),
-			MostRecentPosts: mostRecentPosts(),
+			FeaturedPosts:   featuredPostsData,
+			MostRecentPosts: mostRecentPostsData,
 		}
 
 		err = ts.Execute(w, data)
 		if err != nil {
 			http.Error(w, "Internal Server error", 500)
-			log.Println(err.Error())
+			log.Println(err)
 			return
 		}
 
@@ -146,14 +146,14 @@ func mostRecentPosts(db *sqlx.DB) ([]mostRecentPostData, error) {
 		WHERE featured = 0
 	`
 
-	var most []mostRecentPostData
+	var posts []mostRecentPostData
 
-	err := db.Select(&most, query)
+	err := db.Select(&posts, query)
 	if err != nil {
 		return nil, err
 	}
 
-	return most, nil
+	return posts, nil
 }
 
 func paragraphs() []paragraphData {
