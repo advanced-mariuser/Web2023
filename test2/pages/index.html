@@ -34,11 +34,11 @@
       <h2 class="feautured-posts__title">Feautured Posts</h2>
       {{ range .FeaturedPosts }}
       <div class="{{ .ImgModifier }}">
-        <h3><a class="feautured-post__headline_link" href="post">{{ .Title }}</a></h3>
+        <h3><a class="feautured-post__headline_link" href="/post/{{ .PostID }}">{{ .Title }}</a></h3>
         <h4 class="feautured-post__quote">{{ .Description }}</h4>
         <div class="feautured-post__featured-post-info featured-post-info">
           <div class="featured-post-info__author-info author-info">
-            <img class="author-info__image" src="{{ .AuthorImg }}" alt="max_vogels">
+            <img class="author-info__image" src="{{ .AuthorImg }}">
             <span class="author-info__author">{{ .Author }}</span>
           </div>
           <span class="feautured-post-info__date">{{ .PublishDate }}</span>
@@ -49,18 +49,18 @@
     <div class="most-recent">
       <h2 class="most-recent__title">Most Recent</h2>
       {{ range .MostRecentPosts }}
-        <div class="most-recents__most-recent-post most-recent-post">
-          <img class="most-recent-post__image" src="{{ .PostImg }}" alt="Still Standing Tall">
+        <a class="most-recents__most-recent-post most-recent-post" href="/post/{{ .PostID }}">
+          <img class="most-recent-post__image" src="{{ .PostImg }}">
           <h3 class="most-recent-post__headline">{{ .Title }}</h4>
           <h4 class="most-recent-post__quote">{{ .Description }}</h5>
           <div class="most-recent-post__info info">
             <div class="info__author-info-recent author-info-recent">
-              <img class="author-info-recent__image" src="{{ .AuthorImg }}" alt="william_wong">
+              <img class="author-info-recent__image" src="{{ .AuthorImg }}">
               <span class="author-info-recent__author">{{ .Author }}</span>
             </div>
             <span class="info_date">{{ .PublishDate }}</span>
           </div>
-        </div>
+        </a>
         {{ end }}
     </div>
     <footer class="basement">

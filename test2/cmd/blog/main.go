@@ -5,7 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	_ "github.com/go-sql-driver/mysql" 
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/gorilla/mux"
 	"github.com/jmoiron/sqlx"
 )
 
@@ -15,21 +16,21 @@ const (
 )
 
 func main() {
-	db, err := openDB() 
+	db, err := openDB()
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal(err.Error())
+		return
 	}
 
 	dbx := sqlx.NewDb(db, dbDriverName)
 
-	mux := http.NewServeMux()
-	mux.HandleFunc("/home", index(dbx)) 
+	mux := mux.NewRouter()
+	mux.HandleFunc("/home", index(dbx))
+	mux.HandleFunc("/post/{postID}", post(dbx))
 
-	mux.HandleFunc("/post", post)
+	mux.PathPrefix("/static/").Handler(http.StripPrefix("/static/", http.FileServer(http.Dir("./static"))))
 
-	mux.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./static"))))
-
-	log.Println("Start server " + port)
+	log.Println("Start server" + port)
 	err = http.ListenAndServe(port, mux)
 	if err != nil {
 		log.Fatal(err)
