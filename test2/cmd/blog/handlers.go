@@ -40,12 +40,11 @@ type mostRecentPostData struct {
 }
 
 type postData struct {
-	Title      string `db:"title"`
-	SubTitle   string `db:"subtitle"`
-	Content    string `db:"content"`
-	ImgPost    string `db:"image_url"`
+	Title    string `db:"title"`
+	SubTitle string `db:"description"`
+	ImgPost  string `db:"image_url"`
+	Content  string `db:"content"`
 }
-
 
 func index(db *sqlx.DB) func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
@@ -127,20 +126,20 @@ func post(db *sqlx.DB) func(w http.ResponseWriter, r *http.Request) {
 		}
 
 		log.Println("Request completed successfully")
-    }
+	}
 }
 
 func featuredPosts(db *sqlx.DB) ([]featuredPostData, error) {
 	const query = `
 		SELECT
 		    post_id,
-			title,
-			description,
-			image_url,
-			author,
-			author_url,
-			publish_date,
-			image_mod
+			  title,
+			  description,
+			  image_url,
+			  author,
+			  author_url,
+			  publish_date,
+			  image_mod
 		FROM
 			post
 		WHERE featured = 1
@@ -186,8 +185,8 @@ func postByID(db *sqlx.DB, postID int) (postData, error) {
 	SELECT
 		title,
 		description,
-		content,
-		image_url
+		image_url,
+		content
 	FROM
 		post
 	WHERE

@@ -69,7 +69,7 @@ VALUES
 (
   'Still Standing Tall',
   'Life begins at the end of your comfort zone.',
-  'static/image/baloons.png',
+  '/static/image/baloons.png',
   'William Wong',
   'static/image/william-wong.png',
   '9/25/2015',
@@ -98,7 +98,7 @@ VALUES
 (
   'Sunny Side Up',
   'No place is ever as bad as they tell you it’s going to be.',  
-  'static/image/bridge.png',
+  '/static/image/bridge.png',
   'Mat Vogels',
   'static/image/max-vogels.png',
   '9/25/2015',
@@ -128,7 +128,7 @@ VALUES
 (  
   'Water Falls',
   'We travel not to escape life, but for life not to escape us.',
-  'static/image/sunshine.png',
+  '/static/image/sunshine.png',
   'Mat Vogels',
   'static/image/max-vogels.png',
   '9/25/2015',
@@ -157,7 +157,7 @@ VALUES
 (
   'Through the Mist',
   'Travel makes you see what a tiny place you occupy in the world.',
-  'static/image/sea.png',
+  '/static/image/sea.png',
   'William Wong',
   'static/image/william-wong.png',
   '9/25/2015',
@@ -187,7 +187,7 @@ VALUES
 (
   'Awaken Early',
   'Not all those who wander are lost.',
-  'static/image/fog.png',
+  '/static/image/fog.png',
   'Mat Vogels',
   'static/image/max-vogels.png',
   '9/25/2015',
@@ -217,7 +217,7 @@ VALUES
 (  
   'Try it Always',
   'She world is a book, and those who do not travel read only one page.',
-  'static/image/rainbow.png',
+  '/static/image/rainbow.png',
   'Mat Vogels',
   'static/image/max-vogels.png',
   '9/25/2015',
