@@ -33,17 +33,17 @@
     <div class="feautured-posts">
       <h2 class="feautured-posts__title">Feautured Posts</h2>
       {{ range .FeaturedPosts }}
-      <div class="{{ .ImgModifier }}">
-        <h3><a class="feautured-post__headline_link" href="/post/{{ .PostID }}">{{ .Title }}</a></h3>
-        <h4 class="feautured-post__quote">{{ .Description }}</h4>
-        <div class="feautured-post__featured-post-info featured-post-info">
-          <div class="featured-post-info__author-info author-info">
-            <img class="author-info__image" src="{{ .AuthorImg }}">
-            <span class="author-info__author">{{ .Author }}</span>
+        <div class="{{ .ImgModifier }}">
+          <h3><a class="feautured-post__headline_link" href="/post/{{ .PostID }}">{{ .Title }}</a></h3>
+          <h4 class="feautured-post__quote">{{ .Description }}</h4>
+          <div class="feautured-post__featured-post-info featured-post-info">
+            <div class="featured-post-info__author-info author-info">
+              <img class="author-info__image" src="{{ .AuthorImg }}">
+              <span class="author-info__author">{{ .Author }}</span>
+            </div>
+            <span class="feautured-post-info__date">{{ .PublishDate }}</span>
           </div>
-          <span class="feautured-post-info__date">{{ .PublishDate }}</span>
         </div>
-      </div>
       {{ end }}
     </div>
     <div class="most-recent">
@@ -61,7 +61,7 @@
             <span class="info_date">{{ .PublishDate }}</span>
           </div>
         </a>
-        {{ end }}
+      {{ end }}
     </div>
     <footer class="basement">
       <form class="basement-form">
